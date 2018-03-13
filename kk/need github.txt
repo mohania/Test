@@ -1,0 +1,81 @@
+ 
+ 
+   Github importante Library
+   
+   https://github.com/kobakei/android-range-seek-bar
+   
+   https://github.com/kobakei/BottomBar
+   
+   https://github.com/kobakei/StickyHeaders
+   
+   https://github.com/medyo/Dynamicbox
+   
+    compile 'com.codemybrainsout.rating:ratingdialog:1.0.8'
+	
+	compile 'com.codemybrainsout.onboarding:onboarder:1.0.4'
+	
+	compile 'com.codemybrainsout.placesearchdialog:placesearch:1.0.1'
+	compile 'com.codemybrainsout.placesearchdialog:placesearch:1.0.1'
+	
+	
+	https://github.com/Shashank02051997/FancyGifDialog-Android
+	
+	https://github.com/Shashank02051997/FancyWalkthrough-Android
+	
+	Toast
+	https://github.com/Shashank02051997/FancyToast-Android
+	
+	https://github.com/Shashank02051997/FancyAboutPage-Android
+	
+	https://github.com/Shashank02051997/FancyFacebookBadge-Android
+	
+	https://github.com/BaselHorany/ProgressStatusBar
+	time
+	https://github.com/BaselHorany/MaterialTextClock
+	
+	https://github.com/BaselHorany/DualButton
+	
+	
+	https://github.com/ajithvgiri/Canvas-Library
+	
+	https://github.com/ajithvgiri/IRIS
+	
+	https://github.com/ajithvgiri/Speedometer
+	
+	
+	https://github.com/Tapadoo/Alerter
+	
+	pin
+	https://github.com/aritraroy/PinLockView
+	
+	https://github.com/aritraroy/PatternLockView
+	
+	https://github.com/aritraroy/BlurLockView
+	
+	https://github.com/florent37/BubbleTab
+	
+	https://github.com/matrixxun/ImmersiveDetailSample
+	
+	https://github.com/matrixxun/PullToZoomInListView
+	
+	https://github.com/matrixxun/Long-Shadows
+	
+	https://github.com/aritraroy/RxMagneto
+	
+	
+	Book https://github.com/aritraroy/awesome-android
+	
+	
+	
+	recyclerview all
+	
+	https://github.com/afollestad/drag-select-recyclerview
+	
+	https://github.com/mohanmanu484/RibbonView
+	
+	
+	https://github.com/matrixxun/TicketView
+	
+	https://github.com/matrixxun/Android-Indefinite-Pager-Indicator
+	
+	https://github.com/matrixxun/ExpansionPanel-1

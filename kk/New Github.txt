@@ -1,0 +1,82 @@
+
+   implementation 'com.alex-zaitsev:meternumberpicker:1.0.2'
+   
+   
+    https://github.com/koral--/android-gif-drawable
+	
+	https://github.com/lsjwzh/RecyclerViewPager
+	
+	https://github.com/lsjwzh/AndroidResideMenu
+	
+	
+	https://github.com/Jomes/FadingActionBar
+	
+	Interview
+	https://github.com/gouthampradhan/leetcode
+	
+	https://github.com/xxtea/xxtea-java
+	
+	
+	yesterday test...
+	
+	https://github.com/Jomes?tab=stars
+	
+	https://github.com/alexzaitsev?tab=stars
+	
+	https://github.com/chrisjenx/Calligraphy
+	
+	https://docs.moengage.com/docs/configuring-in-app-nativ
+	
+	https://github.com/segmentio
+	
+	QRCodeReaderView
+	https://github.com/dlazaro66/QRCodeReaderView
+	https://github.com/yanzhenjie/MediaScanner
+	
+	EditText
+	https://github.com/rengwuxian/MaterialEditText
+	
+	https://github.com/hari2babloo/OTPPinEntry
+	
+	Animation
+	https://github.com/dlazaro66/WheelIndicatorView
+	
+	https://github.com/yanzhenjie/Sofia
+	
+	
+	https://github.com/Flipboard/bottomsheet
+	
+	https://github.com/akexorcist/FabTransitionLayout
+	
+	https://github.com/KeepSafe/TapTargetView
+	
+	https://github.com/Azoft/CarouselLayoutManager
+	
+	https://github.com/Azoft/ExpandLayoutManager
+	
+	https://github.com/VMAXSDK/BannerDemo
+	
+	https://github.com/akexorcist/Android-LocalizationActivity
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

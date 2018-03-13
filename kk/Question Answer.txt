@@ -1,0 +1,175 @@
+
+  1. Find Sum of Diagonals of Matrix
+  
+    val arr= arrayOf(intArrayOf(1,2,3,4,3,2),intArrayOf(4,5,6,5,2,6),intArrayOf(7,8,9,4,6,7))
+    var sum1=0
+    var sum2=0
+
+    for(i in 0..arr.size-1)
+    {
+        for(j in 0..arr.size -1){
+            print("${arr[i][j]} ")
+        }
+        println()
+    }
+
+    for(i in 0..arr.size -1){
+        sum1+=arr[i][i]
+    }
+
+    var k=arr.size-1
+    for(i in 0..arr.size){
+        if(k>=0){
+            sum2+=arr[i][k]
+            k--
+        }
+    }
+
+    print("Sum of diagonal elemets $sum1 : $sum2")
+
+  -----------------------------------------------------------------------------
+  2.How to Find Duplicate Characters on String - Java Programming Problems
+
+    val str="Karun Kumar"
+    val ch=str.toCharArray()
+    val map=HashMap<Char,Int>()
+
+    for(i in ch){
+        if(map.containsKey(i)){
+            map.put(i,map[i]!!+1)
+        }else map.put(i,1)
+    }
+
+    val entriesSet=map.entries
+    for ((key,values) in entriesSet){
+        if(values>1){
+            println("  $key --:--$values")
+        }
+    }
+	
+--------------------------------------------------------------------------
+  3.Write a Java program to check whether two strings are anagram or not?
+    val str1="Karun"
+    val str2="arun"
+    var status=true
+    val s1=str1.replace("\\s","")
+    val s2=str2.replace("\\s","")
+
+    if(s1.length != s2.length){
+        status=false
+     }else{
+        val arr1=s1.toLowerCase().toCharArray()
+        val arr2=s2.toLowerCase().toCharArray()
+        Arrays.sort(arr1)
+        Arrays.sort(arr2)
+
+        status=Arrays.equals(arr1,arr2)
+    }
+
+    if(status){
+        println("This  Name $str1 Or  $str2 are Anagram")
+    }else println("This  Name $str1 Or  $str2 are Not Anagram")  
+	
+ ----------------------------------------------------------------------------------
+  4.Find missing number in an array of integer 1 to 100
+  
+  
+    Java
+        int arr[] = {9,2,3,6,1};
+        boolean flag = false;
+
+        for (int i = 1; i <=10; i++) {
+            flag = false;
+            for (int j = 0; j <arr.length; j++) {
+                if (arr[j] == i) {
+                    flag = true;
+                }
+            }
+
+            if (!flag) {
+                System.out.print(" "+i);
+            }
+        }
+    }
+	****************
+	Kotlin
+	  val arr=intArrayOf(1,4,5,8,2)
+    var flag: Boolean
+    for(i in 1..10){
+        flag=false
+        for(j in arr.indices){
+            if(arr[j] == i){
+                flag=true
+            }
+        }
+        if(!flag){
+            print(" "+ i)
+        }
+    }
+	
+----------------------------------------------------------------------------------------
+ 5.Find Max number and min in an array of integer.
+ 
+   ****Max
+    val arr= intArrayOf(23,43,5,8,3432,533)
+    var max=0
+    for(i in 0..arr.size-1) {
+        if (arr[i] > max) {
+            max = arr[i]
+        }
+    }
+     print("Max No: $max")
+   ****Min
+   val array = intArrayOf(10, 11, 88, 12, 120)
+        var minValue = array[0]
+        for (i in 1 until array.size) {
+            if (array[i] < minValue) {
+                minValue = array[i]
+            }
+        }
+        println(" " + minValue)
+=============================================
+
+Second Highest Num
+
+
+        int  arr[]={43,4,233,2,75};
+        int max=arr[0];
+        int secondNo=arr[0];
+        for(int i=0;i<arr.length;i++){
+           if(arr[i]>max){
+               secondNo=max;
+               max=arr[i];
+           }else if(arr[i]>secondNo){
+               secondNo=arr[i];
+           }
+        }
+        System.out.println("Max No of="+secondNo);
+
+    }
+	
+
+==============================
+ Other option
+ 
+    val arr= intArrayOf(23,43,5,2,8,3432,533)
+     Arrays.sort(arr)
+     println("Min No: ${arr[0]}")
+     println("Max No: ${arr[arr.size-1]}")
+     println("2 nd Max No: ${arr[arr.size-2]}")
+
+--------------------------------------------------------------------------------	
+  6. How to filter out numbers from a string in java?
+
+
+
+   var str="ka12ru5n"
+    var name=""
+    println()
+    for(i in 0..str.length-1){
+        if(str[i]> 47.toChar() && str[i]< 58.toChar()){
+            print(str[i])
+        }else name+=str[i]
+    }
+    println(name)
+  
